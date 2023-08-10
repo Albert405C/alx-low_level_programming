@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -11,15 +11,15 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *ptr = malloc(b);
+void *ptr = malloc(b);
 
-	if (ptr == NULL)
-	{
-	   fprintf(stderr, "No Memory Allocated/n");
-	   exit(98);
-	}
+if (ptr == NULL)
+{
+  fprintf(stderr, "No Memory Allocated/n");
+  exit(98);
+}
 
-	return(98);
+return(98);
 
        }
 
