@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#include <stdlib.h>
+#include "dog.h"
 
 /**
  * struct dog - Defines a dog's characteristics
