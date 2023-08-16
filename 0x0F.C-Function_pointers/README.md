@@ -1,1 +1,1 @@
-cd 0x0F.C-Function_pointers
+0x0F.C-Function_pointers
