@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - Function Prints a string using recursion, similar to puts().
+ * _puts_recursion - Prints a string using recursion, similar to puts().
  * @s: The string.
  *
  * Return: Always 0 (Success).
