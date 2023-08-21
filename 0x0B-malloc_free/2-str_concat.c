@@ -49,7 +49,7 @@ int main(void)
     if (result != NULL)
     {
         printf("%s\n", result);
-        free(result); // Don't forget to free the allocated memory when done.
+        free(result); /* Don't forget to free the allocated memory when done. */
     }
     else
     {
@@ -58,4 +58,5 @@ int main(void)
 
     return (0);
 }
+
 
